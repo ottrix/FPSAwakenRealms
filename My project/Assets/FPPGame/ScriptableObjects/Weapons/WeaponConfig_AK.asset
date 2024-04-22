@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c0d52b937f45b083c645db2a02b4e4, type: 3}
+  m_Name: WeaponConfig_AK
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4444213711806480039, guid: 078c89e5264e86640804fb74152e4dde, type: 3}
+  FireSound: {fileID: 8300000, guid: 643053598ca292f48b65a43067232f59, type: 3}
+  HitSound: {fileID: 0}
+  HitEffect: {fileID: 4305638429091569143, guid: 58b6b8377017b9445ae18fa2ab36e197,
+    type: 3}
+  Id: 1
+  Name: Ak
+  Damage: 5
+  Range: 1000
+  FireRate: 0.15
+  Type: 1
+  Snappinness: 5
+  KickbackForce: 0.3
+  KickbackDuration: 8
+  RecoilX: -2
+  RecoilY: 2
+  RecoilZ: 7
